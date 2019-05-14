@@ -78,18 +78,6 @@ $(document).ready(doSearch);
 
 </ul>
 </confmenu></header>
-<div class='container'><nav><ul id='css3menu1' class='topmenu'><div class="tipue_search_group"><input style="width: 6vw;" type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="Press enter key to search" required></div><li><a href='亂數.html'>亂數</a><li><a href='骰子.html'>骰子</a><li><a href='倉儲設定.html'>倉儲設定</a><li><a href='倉儲改版.html'>倉儲改版</a><li><a href='期中報告.html'>期中報告</a><li><a href='期末報告.html'>期末報告</a></li></ul></nav><section><div id="tipue_search_content"> <a href='骰子.html'>Next</a> >> 骰子<br /><h1>亂數</h1>
-<p>content 1</p>
-<p>hello</p>
-<div class="line number1 index0 alt2"><code class="html plain"></code></div>
-<p><button onclick="myFunction()">按一下</button></p>
-<p id="demo"></p>
-<script>// <![CDATA[
-// <![CDAIA[
-function myFunction(){
- document.getElementById("demo").innerHTML = Math.floor(Math.random()*50+1);
- //document.getElementById("demo").innerHTML ="按一下";
- alert("不要亂按");
-}
-// ]]></script>
-<br /> <a href='骰子.html'>Next</a> >> 骰子</div></section></div></body></html>
+<div class='container'><nav><ul id='css3menu1' class='topmenu'><div class="tipue_search_group"><input style="width: 6vw;" type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="Press enter key to search" required></div><li><a href='亂數.html'>亂數</a><li><a href='骰子.html'>骰子</a><li><a href='倉儲設定.html'>倉儲設定</a><li><a href='倉儲改版.html'>倉儲改版</a><li><a href='期中報告.html'>期中報告</a><li><a href='期末報告.html'>期末報告</a></li></ul></nav><section><div id="tipue_search_content">倉儲設定 << <a href='倉儲設定.html'>Previous</a> <a href='期中報告.html'>Next</a> >> 期中報告<br /><h1>倉儲改版</h1>
+<p>建立 Git 倉儲, 並 clone 倉儲至近端工作後, 對遠端倉儲改版<br/><br/>可攜程式系統中已經內建 git, 可以在啟動 start.bat 後, 透過 path 的設定, 直接執行 git 指令.<br/><br/>建立 Git 倉儲, 共分為兩類, 一類是直接在 Github 網際介面下建立倉儲時, 要求建立 README.md 檔案, 之後可以直接在近端, 以 git clone 加上倉儲連線 URL, 將倉儲克隆一份到近端, 並以最新版本作為工作目錄, 使用者改版後, 可以直接透過 git add, commit 與 push 對遠端倉儲改版.<br/><br/>另一類則是故意在 Github 網際介面下建立倉儲時, 不要建立任何檔案, 而是在近端自行利用 git 指令建立倉儲架構, 新增內容後, 以 git remote add 設法在近端倉儲中納入 origin URL 後, 將近端倉儲版本新增提交推送到遠端.<br/><br/>git add<br/><br/>git add 可以用來新增一個檔案, 數個檔案, 或在之前提交後所新增的所有內容.<br/><br/>git add 在 GIT 架構下, 是對所新增或修改的內容拍快照:<br/><br/>git commit<span> </span><br/><br/>git commit 執行之前, 必須使用 git config 建立臨時或永久的身分註記, 因為 GIT 在展開所有改版內容時, 必須明確登錄這些變更的作者與時間.<br/><br/>當使用者採用 git commit -m "改版說明訊息", 此次提交到 .git 目錄下的更動內容, 均會綁定使用者身分與改版所輸入的說明訊息.<br/><br/>git push<br/><br/>git push 在隨後沒有輸入遠端 URL 代號時, 表示要推送到 origin, 若透過 git remote add 設定其他代號與 URL 對應時, git push 加上代號, 就可以將此次的提交內容, 推送到指定的 URL 所在遠端倉儲.</p>
+<br />倉儲設定 << <a href='倉儲設定.html'>Previous</a> <a href='期中報告.html'>Next</a> >> 期中報告</div></section></div></body></html>
