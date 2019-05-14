@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': '歡迎', 'text': 'content 1 \n hello \n \n 按一下 \n \n', 'tags': '', 'url': '歡迎.html'}]};
+var tipuesearch = {"pages": [{'title': '嗨!你好', 'text': "content 1 \n hello \n \n 按一下 \n \n \n \n  Your browser doesn't support the HTML5 element canvas.      Throw dice  \n Stage:   Point:   Outcome: ", 'tags': '', 'url': '嗨!你好.html'}]};
