@@ -199,7 +199,6 @@ brython(1);
 </p>
 <!-- 以下利用 Brython 程式執行繪圖 -->
 <p><canvas height="400" id="taiwan_flag" width="600"></canvas></p>
-<p>
 <script type="text/python3">
 # 導入 doc
 from browser import document as doc
@@ -253,9 +252,9 @@ ctx.closePath()
 ctx.fillStyle = '#fff'
 ctx.fill()
 </script>
-</p>
+<p></p>
+<!-- 以下利用 Brython 程式執行繪圖 -->
 <p><canvas height="400" id="taiwan_flag2" width="600"></canvas></p>
-<p>
 <script type="text/python3">
 # 導入 doc
 from browser import document as doc
@@ -272,10 +271,10 @@ flag_h = canvas.height
 circle_x = flag_w/4
 circle_y = flag_h/4
 # 先畫滿地紅
-ctx.fillStyle='rgb(0,0,150)'
+ctx.fillStyle='rgb(0, 0, 150)'
 ctx.fillRect(0,0,flag_w,flag_h)
 # 再畫青天
-ctx.fillStyle='rgb(255, 0,0)'
+ctx.fillStyle='rgb(255, 0, 0)'
 ctx.fillRect(0,0,flag_w/2,flag_h/2)
 # 畫十二道光芒白日
 ctx.beginPath()
@@ -303,10 +302,9 @@ ctx.fillStyle = 'rgb(0, 0, 149)'
 ctx.fill()
 # 白日:白心
 ctx.beginPath()
-ctx.arc(ath()circle_x, circle_y, flag_w/16, 0, math.pi*2, True)
-ctx.closeP
+ctx.arc(circle_x, circle_y, flag_w/16, 0, math.pi*2, True)
+ctx.closePath()
 # 填色設為白色
 ctx.fillStyle = '#fff'
 ctx.fill()
 </script>
-</p>
