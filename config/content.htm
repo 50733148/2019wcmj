@@ -272,10 +272,10 @@ flag_h = canvas.height
 circle_x = flag_w/4
 circle_y = flag_h/4
 # 先畫滿地紅
-ctx.fillStyle='rgb(255, 127, 80)'
+ctx.fillStyle='rgb(0,0,150)'
 ctx.fillRect(0,0,flag_w,flag_h)
 # 再畫青天
-ctx.fillStyle='rgb(0, 0, 150)'
+ctx.fillStyle='rgb(255, 0,0)'
 ctx.fillRect(0,0,flag_w/2,flag_h/2)
 # 畫十二道光芒白日
 ctx.beginPath()
@@ -303,8 +303,8 @@ ctx.fillStyle = 'rgb(0, 0, 149)'
 ctx.fill()
 # 白日:白心
 ctx.beginPath()
-ctx.arc(circle_x, circle_y, flag_w/16, 0, math.pi*2, True)
-ctx.closePath()
+ctx.arc(ath()circle_x, circle_y, flag_w/16, 0, math.pi*2, True)
+ctx.closeP
 # 填色設為白色
 ctx.fillStyle = '#fff'
 ctx.fill()
